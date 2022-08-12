@@ -13,16 +13,52 @@
 .topbar-left,
 .topbar-right{
     flex:3; /* occupy 3 columns from a total of 12 */
-    
+    align-items: center;  /*aligns items/content inside this parent verticaly center */ 
+    justify-items: center;   /*aligns items/content inside this parent horizontaly center */ 
 }
 
 .topbar-center{
     flex: 6;
 }
 
-.topbar-profile{
-    width: 45px;
-    height: 45px;
+.topbar-profile-pic{
+    width: 42px;
+    height: 42px;
     border-radius: 50%; /* make image as circle */
     object-fit: cover; /*resize media to fit to container size */
+}
+
+.topbar-social-icon{
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    color:#00b386;
+}
+
+.topbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none; /* get rid of dots from li tag */
+    margin: 0;
+    padding: 0;
+}
+
+.topbar-list-item{
+    margin-right: 22px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.topbar-search{
+    color: #00b386;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    align-items: center;
+
+
+
 }
