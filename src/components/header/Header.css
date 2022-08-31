@@ -1,0 +1,31 @@
+.header-section{
+
+}
+.hero-text{
+    display: flex;
+    flex-direction: column; /* stack on top of each other */
+    align-items: center; /*align items center will make items centered horizontaly with respect to flex direction */
+    font-family:  'Ubuntu Mono', monospace;
+    color: #666;
+    font-style: italic;
+    text-transform: capitalize;
+    
+}
+.hero-text-title{
+    position: absolute;
+    top:20%;
+    font-size: 90px;
+
+}
+
+.hero-text-subtitle{
+    position: absolute;
+    top:18%;
+    font-size: 22px;
+}
+
+.hero-image{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}

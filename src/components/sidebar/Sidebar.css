@@ -1,0 +1,3 @@
+.sidebar-section{
+    flex:3; /*occupy 3 parts from total 12 parts so that the listing section can take 9 parts*/
+}
