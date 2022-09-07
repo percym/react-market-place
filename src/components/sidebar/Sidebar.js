@@ -6,7 +6,7 @@ function Sidebar() {
     return (
         <div className='sidebar-section'>
             <div className='sidebar-subsection'>
-                <span className='sidebar-about'>about me</span>
+                <span className='sidebar-title'>about me</span>
                 <img src={sidebarImg} className='sidebar-img' />
                 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -26,7 +26,7 @@ function Sidebar() {
                 </ul>
 
             </div>
-            <div className='sidebar-subscetion'>
+            <div className='sidebar-subsection'>
                 <span className='sidebar-title'>follow us on :</span>
                 <div className='sidebar-social-icons'>
                     <i className="sidebar-social-icon fa-brands fa-instagram" />
